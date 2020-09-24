@@ -37,6 +37,6 @@ function actionApplyer (startingInt, funArray) {
   }
   else {
     funArray.forEach(func => startingInt = func(startingInt))
-    console.log(startingInt)
+    return startingInt;
   }
 }
