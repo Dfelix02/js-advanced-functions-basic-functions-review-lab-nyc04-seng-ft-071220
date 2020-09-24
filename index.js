@@ -40,6 +40,6 @@ function actionApplyer (startingInt, funArray) {
      for (const func in funArray){
       let a = func[i](a)
     }
-       return console.log(w)
+       return console.log(a)
   }
 }
