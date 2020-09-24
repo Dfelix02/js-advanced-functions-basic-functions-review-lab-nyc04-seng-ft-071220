@@ -40,8 +40,7 @@ function actionApplyer (startingInt, funArray) {
     w = 0;
     funArray.forEach(func => {
       num = func(startingInt)
-      funArray[i](num)
-        w+=funArray[i](num);
+      w+=funArray[i](num);
     })
        return console.log(w)
   }
