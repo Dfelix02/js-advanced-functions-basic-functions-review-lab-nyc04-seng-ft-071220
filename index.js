@@ -26,3 +26,7 @@ Calculator.substract = (first,second) => {
 Calculator.multiply = (first,second) => {
   return first * second;
 }
+
+Calculator.divide = (first,second) => {
+  return first + second;
+}
