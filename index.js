@@ -38,7 +38,7 @@ function actionApplyer (startingInt, funArray) {
   else {
     let i = 0;
      for (const func in funArray){
-      let a = func[i](a)
+      let a = func(a)
     }
        return console.log(a)
   }
