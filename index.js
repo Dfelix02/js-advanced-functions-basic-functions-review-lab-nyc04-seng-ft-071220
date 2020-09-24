@@ -36,6 +36,6 @@ function actionApplyer (startingInt, funArray) {
     return startingInt
   }
   else {
-    return Calculator.funArray 
+    return startingInt.funArray 
   }
 }
