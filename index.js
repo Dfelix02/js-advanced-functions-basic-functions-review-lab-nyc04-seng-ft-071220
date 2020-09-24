@@ -36,11 +36,6 @@ function actionApplyer (startingInt, funArray) {
     return startingInt
   }
   else {
-    let i = 0;
-     for (const func of funArray){
-       console.log(func(startingInt))
-      startingInt = func(startingInt)
-    }
-       return console.log(startingInt)
+    return funArray.forEach(func => console.log(func(startingInt)))
   }
 }
