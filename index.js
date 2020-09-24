@@ -36,6 +36,6 @@ function actionApplyer (startingInt, funArray) {
     return startingInt
   }
   else {
-    return funArray.forEach(func => func(startingInt))
+    return funArray.apply(startingInt, [ argsArray])
   }
 }
