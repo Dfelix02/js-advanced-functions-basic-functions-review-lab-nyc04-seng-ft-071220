@@ -38,11 +38,11 @@ function actionApplyer (startingInt, funArray) {
   else {
     i = 1;
     w = 0;
-    l = funArray.forEach(func => {
-          num = func(startingInt)
-          funArray[i](num)
-          w+=funArray[i](num);
-        })
+    funArray.forEach(func => {
+      num = func(startingInt)
+      funArray[i](num)
+        w+=funArray[i](num);
+    })
        return console.log(w)
   }
 }
