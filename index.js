@@ -22,3 +22,7 @@ Calculator.add = (first,second) => {
 Calculator.substract = (first,second) => {
   return first - second;
 }
+
+Calculator.multiply = (first,second) => {
+  return first * second;
+}
