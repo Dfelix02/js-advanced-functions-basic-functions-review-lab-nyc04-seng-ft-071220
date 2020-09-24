@@ -16,5 +16,5 @@ function wrapAdjective(vFlair = "*") {
 let Calculator = {};
 
 let add = (first,second) => {
-  return 
+  return first + second;
 }
