@@ -32,5 +32,10 @@ Calculator.divide = (first,second) => {
 }
 
 function actionApplyer (startingInt, funArray) {
-  if (funArray.empty)
+  if (funArray.length === 0) {
+    return
+  }
+  else {
+    return Calculator.funArray 
+  }
 }
