@@ -36,8 +36,8 @@ function actionApplyer (startingInt, funArray) {
     return startingInt
   }
   else {
-    i = 1;
-    w = 0;
+    let i = 1;
+    let w = 0;
     funArray.forEach(func => {
       num = func(startingInt)
       w+=funArray[i](num);
