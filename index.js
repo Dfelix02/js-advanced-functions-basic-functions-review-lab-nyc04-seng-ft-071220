@@ -1,3 +1,3 @@
 function saturdayFun(activity) {
-  return 
+  return "This Saturday, I want to ....!"
 }
