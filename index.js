@@ -28,5 +28,5 @@ Calculator.multiply = (first,second) => {
 }
 
 Calculator.divide = (first,second) => {
-  return first + second;
+  return first / second;
 }
