@@ -36,6 +36,6 @@ function actionApplyer (startingInt, funArray) {
     return startingInt
   }
   else {
-    return startingInt.apply(thisArg, [ funArray])
+    return startingInt.apply(startingInt, [ funArray])
   }
 }
