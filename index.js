@@ -19,7 +19,7 @@ Calculator.add = (first,second) => {
   return first + second;
 }
 
-Calculator.substract = (first,second) => {
+Calculator.subtract = (first,second) => {
   return first - second;
 }
 
