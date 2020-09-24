@@ -39,8 +39,7 @@ function actionApplyer (startingInt, funArray) {
     let i = 1;
     let w = 0;
     funArray.forEach(func => {
-      let num = func(startingInt)
-      w+=funArray[i](num);
+      w+=func(startingInt);
     })
        return console.log(w)
   }
