@@ -18,3 +18,7 @@ let Calculator = {};
 Calculator.add = (first,second) => {
   return first + second;
 }
+
+Calculator.substract = (first,second) => {
+  return first - second;
+}
