@@ -36,11 +36,9 @@ function actionApplyer (startingInt, funArray) {
     return startingInt
   }
   else {
-    let i = 1;
-    let w = 0;
-    funArray.forEach(func => {
-      w+=func(startingInt);
-    })
+     for (){
+      a = ray[i](a)
+    }
        return console.log(w)
   }
 }
