@@ -33,7 +33,7 @@ Calculator.divide = (first,second) => {
 
 function actionApplyer (startingInt, funArray) {
   if (funArray.length === 0) {
-    return
+    return startingInt
   }
   else {
     return Calculator.funArray 
